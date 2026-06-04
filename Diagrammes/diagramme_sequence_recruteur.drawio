@@ -1,0 +1,370 @@
+<mxfile host="65bd71144e">
+    <diagram name="Sequence - Recruteur" id="seq_recruteur">
+        <mxGraphModel dx="352" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="100" value="Diagramme de séquence — Recruteur : Offre et Matching IA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="10" width="800" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Recruteur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="50" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="API Django" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="50" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Base de données" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="50" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="OpenAI GPT-4o-mini" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="50" width="140" height="990" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=activation;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="100" width="10" height="1289" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=activation;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="100" width="10" height="1288" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=activation;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="635" y="100" width="10" height="1295" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=activation;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="905" y="1040" width="10" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="115" y="168" as="sourcePoint"/>
+                        <mxPoint x="361" y="168" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="236" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;POST/api/auth/register/Recruteur/&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="114" y="142" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" value="Insert User + Candidat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="436.5" y="176" width="138" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382" y="203" as="sourcePoint"/>
+                        <mxPoint x="627" y="203" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="286" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="379" y="258" as="sourcePoint"/>
+                        <mxPoint x="626" y="258" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="287" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap; background-color: rgba(255, 255, 255, 0.1);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;OK&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="493.5" y="231" width="31" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="117" y="282" as="sourcePoint"/>
+                        <mxPoint x="364.9999999999999" y="282.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="289" value="201 Created" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="177.5" y="258" width="84" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="290" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="121" y="349" as="sourcePoint"/>
+                        <mxPoint x="365" y="349" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="291" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;POST/api/auth/login/&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="99.5" y="326" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="292" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="373.5" y="370" as="sourcePoint"/>
+                        <mxPoint x="634.9999999999999" y="369.712" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="293" value="SELECT User WHERE email =..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="408.5" y="340" width="194" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="294" value="" style="html=1;verticalAlign=bottom;endArrow=none;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="52" y="447" as="sourcePoint"/>
+                        <mxPoint x="676" y="448" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="295" value="&lt;b&gt;Email trouvé&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="132" y="388" width="90" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="&lt;b&gt;Email&amp;nbsp; non trouvé&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="112.5" y="455" width="119" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="User trouvé + password vérifié" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="415.5" y="388" width="180" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="200 OK + access_token + refresh_token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="128.5" y="405" width="233" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="aucun résultat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="463" y="455" width="93" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="401 Unauthorized - No activate account found" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="106.5" y="479" width="262" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="751" width="617" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="116.5" y="431" as="sourcePoint"/>
+                        <mxPoint x="364.4999999999999" y="431.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="307" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;elbow=vertical;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="117" y="511" as="sourcePoint"/>
+                        <mxPoint x="364.9999999999999" y="511.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="308" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="381.5" y="481" as="sourcePoint"/>
+                        <mxPoint x="629.4999999999999" y="481.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="309" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="381.5" y="411" as="sourcePoint"/>
+                        <mxPoint x="629.4999999999999" y="411.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="310" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="119" y="578" as="sourcePoint"/>
+                        <mxPoint x="365" y="578" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="311" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;POST/api/offresemploi/&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="128.5" y="553" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="313" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382.5" y="599" as="sourcePoint"/>
+                        <mxPoint x="628.5" y="599" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="314" value="INSERT offre_emploi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="446" y="572" width="131" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="386" y="639" as="sourcePoint"/>
+                        <mxPoint x="633" y="639" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="318" value="Ok + ID=X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="472.5" y="618" width="74" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="121.5" y="671" as="sourcePoint"/>
+                        <mxPoint x="368.5" y="671" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="320" value="201 Created&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="197" y="638" width="87" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="116.5" y="726" as="sourcePoint"/>
+                        <mxPoint x="362.5" y="726" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="322" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;PUT/api/offresemploi/{id}&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="698" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+                    <mxGeometry x="75.5" y="394" width="617" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="&lt;b&gt;&amp;nbsp;[ Recruteur = propriétaire ]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="760" width="173" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="" style="html=1;verticalAlign=bottom;endArrow=none;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="68.5" y="826.37" as="sourcePoint"/>
+                        <mxPoint x="692.5" y="827.37" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="326" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382.5" y="789" as="sourcePoint"/>
+                        <mxPoint x="628.5" y="789" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="328" value="Update offre_emploi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="447" y="765" width="126" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="385.5" y="807" as="sourcePoint"/>
+                        <mxPoint x="633.4999999999999" y="807.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="331" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap; background-color: rgba(255, 255, 255, 0.1);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;OK&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="501" y="786" width="31" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="117" y="816" as="sourcePoint"/>
+                        <mxPoint x="364.9999999999999" y="816.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="333" value="200 OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="215.5" y="794" width="59" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="&lt;b&gt;&amp;nbsp;[ Recruteur != propriétaire ]&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="123" y="833" width="177" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;entryX=0.233;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="385.5" y="862" as="sourcePoint"/>
+                        <mxPoint x="633.4999999999999" y="862.462" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="336" value="&lt;span style=&quot;font-family: monospace; font-size: 11.7px; text-align: start; text-wrap-mode: wrap; background-color: rgba(255, 255, 255, 0.1);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Non autorisé&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="452" y="836" width="95" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="118" y="889" as="sourcePoint"/>
+                        <mxPoint x="365" y="889" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="338" value="403 Forbidden" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="866" width="95" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="122" y="973" as="sourcePoint"/>
+                        <mxPoint x="368" y="973" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="340" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 11.7px; text-wrap-mode: wrap;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;GET&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: monospace; background-color: transparent; font-size: 11.7px; text-wrap-mode: wrap;&quot;&gt;/api/offres_emploi/{id}/candidatrecommend/&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="134" y="943" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382.5" y="1003" as="sourcePoint"/>
+                        <mxPoint x="628.5" y="1003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="342" value="SELECT candidats WHERE disponible = TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="382" y="973" width="271" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382" y="1038" as="sourcePoint"/>
+                        <mxPoint x="629" y="1038" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="344" value="liste Candidatures" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="452" y="1015" width="114" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="387" y="1067" as="sourcePoint"/>
+                        <mxPoint x="902" y="1067" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="347" value="POST chat/completions(prompt offre+ candidat)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="1041" width="272" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="348" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="390" y="1116" as="sourcePoint"/>
+                        <mxPoint x="905" y="1116" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="349" value="{&quot;scrore&quot; : ...,&quot;analyse&quot;:...}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="618" y="1086" width="154" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="353" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="386.5" y="1163" as="sourcePoint"/>
+                        <mxPoint x="632.5" y="1163" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="354" value="INSERT matching_result&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="435.5" y="1132" width="153" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="355" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="388.5" y="1200" as="sourcePoint"/>
+                        <mxPoint x="635.5" y="1200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="356" value="ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="503.5" y="1173" width="31" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="357" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="118" y="1225" as="sourcePoint"/>
+                        <mxPoint x="365" y="1225" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="358" value="200 OK + [{candidat; score, analyse}]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="135" y="1192" width="216" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="117.5" y="1260" as="sourcePoint"/>
+                        <mxPoint x="363.5" y="1260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="364" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 11.7px; text-wrap-mode: wrap;&quot;&gt;PATCH/api/candidatures/{id}/statut/&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="128.5" y="1235" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382" y="1279" as="sourcePoint"/>
+                        <mxPoint x="628" y="1279" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="366" value="VALIDATE statut IN [en attente,accepté,refusée]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="372" y="1254" width="274" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="382" y="1324" as="sourcePoint"/>
+                        <mxPoint x="628" y="1324" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="368" value="UPDATE candidature SET statut=acceptée" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="386.5" y="1297" width="247" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="385.5" y="1354.8899999999999" as="sourcePoint"/>
+                        <mxPoint x="632.5" y="1354.8899999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="370" value="ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="1330" width="31" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="371" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry y="270" relative="1" as="geometry">
+                        <mxPoint x="117" y="1371.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="364" y="1371.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="372" value="200 OK + [{statut: acceptée}]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1345" width="172" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="373" value="" style="endArrow=none;dashed=1;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="911" y="1408" as="sourcePoint"/>
+                        <mxPoint x="910.5" y="1146" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,172 @@
+<mxfile host="65bd71144e">
+    <diagram name="Use Case" id="uc1">
+        <mxGraphModel dx="285" dy="1024" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="999" value="Diagramme de cas utilisation - Recruitment API" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="426" y="51" width="780" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="SYS" value="Systeme Recruitment API" style="swimlane;startSize=30;fillColor=none;strokeColor=#666666;strokeWidth=2;fontSize=13;fontStyle=1;align=center;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="98" width="914" height="1233" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Consulter resultats matching" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="338" y="1155" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Gerer offres et candidatures" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="338" y="1076" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Gerer tous les utilisateurs" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="318" y="989" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="html=1;endArrow=none;" parent="SYS" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="1100.866814611056" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" style="html=1;endArrow=none;" parent="SYS" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="1104.8197990281108" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" style="html=1;endArrow=none;" parent="SYS" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="1108.286149814451" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Consulter les offres" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="593" y="272" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Postuler a une offre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="397" y="300" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Consulter ses candidatures" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="263" y="382" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Rechercher des candidats" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="397" y="665" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Lancer le matching IA" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="522" y="882" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Accepter ou Refuser candidature" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="472.5" y="772" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Filtrer candidats par competence" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="637.5" y="622.99" width="165" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&amp;lt;extends&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endFill=0;fontSize=10;strokeColor=#000000;" parent="SYS" source="45" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="SYS" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="749.0912431045774" as="sourcePoint"/>
+                        <mxPoint x="498.93095879490807" y="527.0028462308228" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="html=1;endArrow=none;" parent="SYS" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="752.1098603658261" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" style="html=1;endArrow=none;" parent="SYS" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="759.3768150223982" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-128" y="759"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Modifier ou Fermer une offre" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="585" y="531" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Creer une offre emploi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="590.5" y="454" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="html=1;endArrow=none;" parent="SYS" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="747.5890283796202" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="S inscrire" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="374" y="486" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="html=1;endArrow=none;" parent="SYS" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-125" y="741.1887584229066" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Uploader son CV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="619" y="182" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Modifier son profil" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="327" y="115" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="1004" value="Se connecter" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontSize=11;" parent="SYS" vertex="1">
+                    <mxGeometry x="192" y="488" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="1040" value="&lt;pre style=&quot;overflow-x: auto; box-sizing: border-box; border-radius: 4px; max-width: 100%; margin: 0px; padding: 8px; font-size: 13px; text-align: start;&quot;&gt;&lt;code style=&quot;font-family: monospace; border-radius: 3px; word-break: break-word; font-size: 0.9em;&quot;&gt;&lt;b&gt;Note : Toutes les opérations    &lt;br&gt;(sauf &quot;S&#39;inscrire&quot;) nécessitent &lt;br&gt;un token JWT valide :           &lt;br&gt;Authorization: Bearer &amp;lt;token&amp;gt;  &lt;/b&gt;&lt;/code&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=default;fontColor=default;labelBackgroundColor=default;" parent="SYS" vertex="1">
+                    <mxGeometry x="653" y="46" width="236" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="OpenAI API" style="shape=mxgraph.uml.actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="1457" y="887" width="50" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="html=1;endArrow=none;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="257.18815678233636" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="html=1;endArrow=none;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="219.16714608440634" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="html=1;endArrow=none;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="223.86465486531847" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" style="html=1;endArrow=none;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="227.78201999179828" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="html=1;endArrow=none;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="232.6394052044609" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="html=1;endArrow=none;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="240.0677289598866" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" style="html=1;endArrow=none;" parent="1" source="43" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1032" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="cS_li3te8uuLskK6jepO-1000" target="1004" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="cS_li3te8uuLskK6jepO-1000" value="Candidat" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="164" y="215" width="44" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="cS_li3te8uuLskK6jepO-1001" value="recruteur" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="819" width="44" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="html=1;endArrow=none;exitX=0.871;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cS_li3te8uuLskK6jepO-1001" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="123" y="823.9320359950066" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="cS_li3te8uuLskK6jepO-1002" value="Admin" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="187" y="1166" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="1033" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="cS_li3te8uuLskK6jepO-1001" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="583" y="633" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
